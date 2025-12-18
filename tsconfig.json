@@ -16,8 +16,12 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+
   "include": ["src"],
+
+  "exclude": [
+    "src/**/*.rs"
+  ],
+
   "references": [{ "path": "./tsconfig.node.json" }]
 }
-
-

@@ -19,7 +19,8 @@ const ConferenciaFrete = () => {
   const [calculo, setCalculo] = useState<CalculoConferencia | null>(null);
   const [resultadosLote, setResultadosLote] = useState<ResultadoLoteConferencia[]>([]);
   const inputArquivoRef = useRef<HTMLInputElement | null>(null);
-  const [loadingTaxas, setLoadingTaxas] = useState(false);
+  const [, setLoadingTaxas] = useState(false);
+
 
   useEffect(() => {
     const carregar = async () => {

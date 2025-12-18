@@ -26,3 +26,4 @@ ON public.taxas_frete
 FOR DELETE
 USING (true);
 
+
